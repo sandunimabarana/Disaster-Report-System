@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.drsystem.Controller.AdminController">
+   <children>
+      <Button fx:id="create_acc_btn_id" layoutX="100.0" layoutY="103.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="26.0" prefWidth="136.0" text="Create Account" />
+      <Button fx:id="delete_acc_btn_id1" layoutX="100.0" layoutY="141.0" mnemonicParsing="false" onAction="#deleteAccount" prefHeight="26.0" prefWidth="136.0" text="Delete Account" />
+      <Button fx:id="assess_disaster_btn_id" layoutX="100.0" layoutY="179.0" mnemonicParsing="false" onAction="#redirectToAssessDisasterView" prefHeight="26.0" prefWidth="136.0" text="Assesses Disaster" />
+      <Button fx:id="view_evacuation_alert_btn_id" layoutX="100.0" layoutY="213.0" mnemonicParsing="false" onAction="#redirectToEvacuationAlertView" text="View Evacuation Alerts" />
+      <Button fx:id="logout_btn_id" layoutX="100.0" layoutY="248.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="136.0" text="Logout" />
+   </children>
+</AnchorPane>
